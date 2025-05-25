@@ -20,9 +20,9 @@ const Navbar = () => {
             <img src={assets.logo} alt="" />
             <ul className='hidden md:flex gap-7 text-white '>
               <li href="#Header" className='cursor-pointer hover:text-gray-400'>Home</li>
-              <li href="#Header" className='cursor-pointer hover:text-gray-400'>About</li>
-              <li href="#Header" className='cursor-pointer hover:text-gray-400'>Project</li>
-              <li href="#Header" className='cursor-pointer hover:text-gray-400'>Testimonials</li>
+              <li href="#About" className='cursor-pointer hover:text-gray-400'>About</li>
+              <li href="#Project" className='cursor-pointer hover:text-gray-400'>Project</li>
+              <li href="#Testimonials" className='cursor-pointer hover:text-gray-400'>Testimonials</li>
             </ul>
             <button className='hidden md:block bg-white px-8 py-2 rounded-full '>Sign Up</button>         
             <img onClick={()=> setshowMobileMenu(true)} src={assets.menu_icon} className='md:hidden w-7 cursor-pointer ' alt="" />
