@@ -3,6 +3,7 @@ import Header from './components/Header'
 import About from './components/About'
 import Projects from './components/Projects'
 import Testimonails from './components/Testimonails'
+import Contact from './components/Contact'
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
          <About></About>
          <Projects></Projects>
          <Testimonails></Testimonails>
+         <Contact></Contact>
       </div>
      
     </>

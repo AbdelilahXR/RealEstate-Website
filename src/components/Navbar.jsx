@@ -19,10 +19,10 @@ const Navbar = () => {
         <div className='container mx-auto flex justify-between items-center py-4 px-4 md:px-20 lg:px-32 bg-transparent'>
             <img src={assets.logo} alt="" />
             <ul className='hidden md:flex gap-7 text-white '>
-              <li href="#Header" className='cursor-pointer hover:text-gray-400'>Home</li>
-              <li href="#About" className='cursor-pointer hover:text-gray-400'>About</li>
-              <li href="#Project" className='cursor-pointer hover:text-gray-400'>Project</li>
-              <li href="#Testimonials" className='cursor-pointer hover:text-gray-400'>Testimonials</li>
+              <a href="#Header" className='cursor-pointer hover:text-gray-400'>Home</a>
+              <a href="#About" className='cursor-pointer hover:text-gray-400'>About</a>
+              <a href="#Project" className='cursor-pointer hover:text-gray-400'>Project</a>
+              <a href="#Testimonials" className='cursor-pointer hover:text-gray-400'>Testimonials</a>
             </ul>
             <button className='hidden md:block bg-white px-8 py-2 rounded-full '>Sign Up</button>         
             <img onClick={()=> setshowMobileMenu(true)} src={assets.menu_icon} className='md:hidden w-7 cursor-pointer ' alt="" />
