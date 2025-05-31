@@ -4,17 +4,20 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Testimonails from './components/Testimonails'
 import Contact from './components/Contact'
+import { ToastContainer } from 'react-toastify';
+
 
 
 const App = () => {
   return (
     <>
       <div className='w-full  overflow-hidden '>
+        <ToastContainer></ToastContainer>
          <Header/>
-         <About></About>
-         <Projects></Projects>
-         <Testimonails></Testimonails>
-         <Contact></Contact>
+         <About/>
+         <Projects/>
+         <Testimonails/>
+         <Contact/>
       </div>
      
     </>
